@@ -1,4 +1,4 @@
-# CSS-Gallery-Paintings#
+# CSS-Gallery-Paintings
 ## Info
 Decided to create a gallery container for this beautiful flag and future artworks that I will create using pure CSS.
 
