@@ -263,6 +263,7 @@ h1 {
 
 /*flag-greece*/
 .flag-greece {
+  overflow: hidden;
   aspect-ratio: 14/10;
   height: 250px;
   position: relative;
