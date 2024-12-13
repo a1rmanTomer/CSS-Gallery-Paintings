@@ -6,4 +6,4 @@ Enjoy<3
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/90d19562-ae02-412d-80d0-defe0fa270be)
+![image](https://github.com/user-attachments/assets/1c657f69-b1d5-41ae-8487-9f5d8d5602ff)
