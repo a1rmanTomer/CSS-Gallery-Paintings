@@ -40,6 +40,7 @@ h1 {
   border-radius: 1rem;
   background-color: #d4d4d4;
   box-shadow: 0 0 3.5rem #ffffff71;
+  overflow: hidden;
 }
 
 /*flag-il (Best Flag..)*/
@@ -192,10 +193,12 @@ h1 {
 }
 
 .paintings {
+  overflow: hidden;
   position: fixed;
   display: grid;
-  align-items: center;
-  justify-content: space-evenly;
+  place-content: space-evenly;
+  flex-shrink: 1;
+  place-content: space-evenly;
   top: 8%;
   height: 90%;
   width: 90%;
@@ -263,7 +266,6 @@ h1 {
 
 /*flag-greece*/
 .flag-greece {
-  overflow: hidden;
   aspect-ratio: 14/10;
   height: 250px;
   position: relative;
@@ -296,6 +298,7 @@ h1 {
   width: 35%;
   height: 50%;
   background-color: rgb(0, 0, 190);
+  border-radius: 1rem;
 }
 
 .greece-inner::before,
@@ -316,4 +319,24 @@ h1 {
   top: -67.25%;
   width: 100%;
   height: 22.22%;
+}
+
+/*flag-holland*/
+.flag-holland {
+  background-color: repeating-linear-gradient(
+    to bottom,
+    red 0%,
+    red 33.33%,
+    white 33.33%,
+    white 66.67%,
+    blue 66.67%,
+    blue 100%
+  );
+  aspect-ratio: 14/10;
+  height: 250px;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.5rem #0000007c;
+  align-content: center;
+  justify-items: center;
 }
