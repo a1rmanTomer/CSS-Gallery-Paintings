@@ -179,7 +179,7 @@ body {
 }
 
 h1 {
-  position: absolute;
+  position: block;
   color: #252525;
   background-color: rgb(157, 158, 158);
   text-shadow: 0 0 10px #ffffff71;
@@ -195,10 +195,12 @@ h1 {
 .paintings {
   overflow: hidden;
   position: fixed;
-  display: grid;
-  place-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
   flex-shrink: 1;
-  place-content: space-evenly;
   top: 8%;
   height: 90%;
   width: 90%;
