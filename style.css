@@ -207,6 +207,7 @@ h1 {
   border-radius: 1rem;
   background-color: #d4d4d4;
   box-shadow: 0 0 3.5rem #ffffff71;
+  gap: 3%;
 }
 
 /*flag-il*/
@@ -325,20 +326,18 @@ h1 {
 
 /*flag-holland*/
 .flag-holland {
-  background-color: repeating-linear-gradient(
-    to bottom,
-    red 0%,
-    red 33.33%,
-    white 33.33%,
-    white 66.67%,
-    blue 66.67%,
-    blue 100%
-  );
   aspect-ratio: 14/10;
   height: 250px;
   position: relative;
   border-radius: 1rem;
   box-shadow: 0 0 1.5rem #0000007c;
-  align-content: center;
-  justify-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgb(136, 0, 0) 0%,
+    rgb(136, 0, 0) 33.33%,
+    white 33.33%,
+    white 66.67%,
+    rgb(0, 0, 117) 66.67%,
+    rgb(0, 0, 117) 100%
+  );
 }
